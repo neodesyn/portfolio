@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/site-animations.css" rel="stylesheet"><!--Custom Animation Css-->
+</head>
+<body>
+
+    <!-- <div class="navbar-brand"><img src="images/logo.webp"></div> -->
+<!-- Vertical sticky navigation for large screens -->
+<div class="d-none d-lg-block right-nav position-fixed end-0">
+  <ul class="nav flex-column">
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#aboutme">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+        </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#testimonials">Testimonials</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+    </li>
+  </ul>
+  <!-- <button class="btn btn-warning rounded-pill hire" type="button"><a href="#contact">Contact</a></button> -->
+</div>
+
+<!-- Offcanvas toggle button for mobile screens -->
+<button class="btn btn-primary btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+    <i class="ti ti-menu"></i>
+</button>
+
+<!-- Offcanvas menu for mobile screens -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header d-flex justify-content-end">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <ul class="nav flex-column">
+          <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+          </li>
+      </ul>
+  </div>
+</div>   
+
+
+<!-- Page content -->
+<section id="home">
+    <div class="container banner d-flex  align-items-center">
+    <div class="banner-container">
+        <h3 class="banner-title-small">Hello! I’m </h3>
+        <h2 class="banner-title">Sai Jyothi </h2>
+        <p class="banner-paragraph text-gray">UI Developer specialized in creating clean, responsive, <br>and user-friendly websites using HTML5, CSS3, Bootstrap 5 and JavaScript.</p>
+        <div class="mt-4">
+              <!-- <a href="your-video-link.mp4" class="btn btn-primary btn-custom" target="_blank">
+                <i class="fa-solid fa-play"></i> Watch Video
+              </a> -->
+              <a href="#contact" class="btn orange-btn rounded-pill mt-4 banner-btn " download>
+               Contact Me  &nbsp;<i class="ti ti-download"></i>
+              </a>
+        </div>
+    </div>
+</div>
+</section>
+<!--<div class="container ">-- .content</div>-->
+    <section id="aboutme" class=" py-3">
+        <div class="container">
+            <div class="section-content">
+                <!-- <span class="section-tag">|| </span> -->
+                <h2 class="li1 section-title">About Me</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-md-12 col-sm-12 section-bg rounded p-4 mt-2">
+                    <p class="li2">Hi, I’m Sai Jyothi, a UI Developer with a focus on Shopify and Webflow.</p> 
+                    <ul class="list">
+                        <li class="li3">I specialize in creating clean, responsive, and user-friendly websites using HTML5, CSS3, Bootstrap 5, and some JavaScript.</li>
+                        <li class="li4">I’m experienced in Shopify theme development and Webflow customizations,
+                            helping businesses bring their ideas to life with high-quality web solutions.</li>
+                        <li class="li5">I also possess basic skills in Photoshop and React.js to enhance visuals and ensure designs look their best. If you’re seeking a developer who combines design with functionality, let’s connect!</li>
+                    </ul>
+                    
+                </div>
+            </div>
+          
+        </div>
+       
+    </section>
+    <section id="services" class=" py-3">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Services</h2>
+                <span class="section-tag">Professional Services I Offer to My Clients.</span>
+            </div>
+            <div class="services-panel">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="card-body">
+                           <span><i class="ti ti-check"></i></span>
+                          <h5 class="card-title"> Custom UI/UX Design</h5>
+                          <!-- <p class="card-text">Tailored, responsive, and visually appealing user interfaces
+                             designed to provide an exceptional user experience. Focus on brand identity,
+                              functionality, and user engagement.</p> -->
+                         </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <span><i class="ti ti-mobile"></i></span>
+                          <h5 class="card-title">Responsive Web Design</h5>
+                          <!-- <p class="card-text">Ensure your website looks great on all devices,
+                             including mobile, tablet, and desktop. I specialize in creating fluid and
+                              adaptable layouts that provide a consistent experience.</p> -->
+                         </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="card-body"><span><i class="ti ti-desktop"></i></span>
+                          <h5 class="card-title">Front-end Development</h5>
+                          <!-- <p class="card-text">Front-end coding with HTML5, CSS3, Bootstrap 5,
+                             and JavaScript, delivering fast-loading, optimized,
+                              and accessible web pages that are fully functional across browsers.</p> -->
+                        </div>
+                    </div></div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="card-body"><span><i class="ti ti-shopping-cart"></i></span>
+                          <h5 class="card-title">Shopify Theme Development</h5>
+                          <!-- <p class="card-text">Expert development of Shopify themes,
+                             fully customized to fit the unique needs of your e-commerce platform, 
+                             ensuring seamless user experience and optimized performance.</p> -->
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="card-body"><span><i class="ti ti-desktop"></i></span>
+                          <h5 class="card-title">Webflow Development</h5>
+                          <!-- <p class="card-text">Build and design high-performance websites
+                             using Webflow, from scratch or redesign, 
+                             providing fully responsive layouts, clean code, and easy client handover.</p> -->
+                         </div>
+                    </div></div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="card-body"><span><i class="ti ti-timer"></i></span>
+                          <h5 class="card-title">Optimizing Website Performance</h5>
+                          <!-- <p class="card-text">Improve site speed, reduce load times, 
+                            and enhance overall performance to ensure the best user experience,
+                             which can also improve search engine rankings.</p> -->
+                        </div>
+                    </div></div>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+       
+    </section>
+
+      <section id="portfolio" class=" py-3">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">My Portfolio</h2>
+                <span class="section-tag">"Transforming Ideas into Interactive and Responsive Digital Solutions." </span>
+            </div>
+            <div class="portfolio-container">
+                <div class="row g-4">
+                    <!-- Project 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-front"><img src="images/project1.png" ></div>
+                                <div class="portfolio-back">
+                                    <div>
+                                        <h5>Project 1</h5>
+                                        <p>A Shopify theme development project designed for a modern online store.</p>
+                                        <a href="https://your-link-to-project1.com" class="btn btn-light">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Project 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-front"><img src="images/project1.png" ></div>
+                                <div class="portfolio-back">
+                                    <div>
+                                        <h5>Project 2</h5>
+                                        <p>Webflow customizations for a creative portfolio website.</p>
+                                        <a href="https://your-link-to-project2.com" class="btn btn-light">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Project 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-front"><img src="images/project1.png" ></div>
+                                <div class="portfolio-back">
+                                    <div>
+                                        <h5>Project 3</h5>
+                                        <p>Website optimization for enhanced speed and user experience.</p>
+                                        <a href="https://your-link-to-project3.com" class="btn btn-light">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Project 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-front"><img src="images/project1.png" ></div>
+                                <div class="portfolio-back">
+                                    <div>
+                                        <h5>Project 1</h5>
+                                        <p>A Shopify theme development project designed for a modern online store.</p>
+                                        <a href="https://your-link-to-project1.com" class="btn btn-light">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Project 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-front"><img src="images/project1.png" ></div>
+                                <div class="portfolio-back">
+                                    <div>
+                                        <h5>Project 2</h5>
+                                        <p>Webflow customizations for a creative portfolio website.</p>
+                                        <a href="https://your-link-to-project2.com" class="btn btn-light">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Project 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item">
+                            <div class="portfolio-inner">
+                                <div class="portfolio-front"><img src="images/project1.png" ></div>
+                                <div class="portfolio-back">
+                                    <div>
+                                        <h5>Project 3</h5>
+                                        <p>Website optimization for enhanced speed and user experience.</p>
+                                        <a href="https://your-link-to-project3.com" class="btn btn-light">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+      </section>
+      <section id="testimonials" class="py-3">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Testimonials</h2>
+           </div>
+           <div class="row">
+            <div class="col-sm-10">
+             <!-- Testimonials Slider -->
+             <div id="testimonialSlider" class="carousel slide mt-2 section-bg pb-4 " data-bs-ride="carousel">
+                <!-- Indicators (Circles) -->
+                <div class="carousel-indicators my-4">
+                  <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="0" class="active text-gray" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="1" class=" text-gray" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="2" class=" text-gray" aria-label="Slide 3"></button>
+                </div>
+          
+                <div class="carousel-inner ">
+                  <!-- Testimonial 1 -->
+                  <div class="carousel-item active">
+                    <div class="testimonial-card mx-auto d-flex align-items-center  mb-4">
+                        <p class="testimonial-text  mt-5">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          <span class="testimonial-name mt-2">Client 1</span>
+                        </p>
+                      </div>
+                  </div>
+                  <!-- Testimonial 2 -->
+                  <div class="carousel-item">
+                    <div class="testimonial-card mx-auto d-flex align-items-center  mb-4">
+                        <p class="testimonial-text  mt-5 ">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          <span class="testimonial-name mt-2">Client 2</span>
+                        </p>
+                      </div>
+                  </div>
+                  <!-- Testimonial 3 -->
+                  <div class="carousel-item">
+                    <div class="testimonial-card mx-auto d-flex align-items-center  mb-4">
+                        <p class="testimonial-text  mt-5">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          <span class="testimonial-name mt-2">Client 3</span>
+                        </p>
+                      </div>
+                  </div>
+                </div>  
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialSlider" data-bs-slide="prev">
+                  <span class="ti ti-angle-left" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialSlider" data-bs-slide="next">
+                  <span class="ti ti-angle-right" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+           </div>
+   
+        </div>
+    
+      </section>
+      <section id="contact" class="py-3">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Contact Me</h2>
+                <span class="section-tag">"Let's Build Something Great Together!<br> Reach out to discuss your project or ask any questions." </span> 
+           </div>
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <form id="contactForm" action="contact.php" method="POST" novalidate class="mt-3">
+                    <!-- <form id="contactForm" novalidate> -->
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                            <div class="invalid-feedback">Please enter your name.</div>
+                        </div>
+            
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+            
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+                            <div class="invalid-feedback">Please enter your message.</div>
+                        </div>
+                        <button type="submit" class="btn orange-btn rounded-pill mb-5">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-3 col-sm-12  d-flex align-items-center justify-content-center text-center">
+                    <div>
+                      <!-- <h5 class=" mt-3"> <i class="ti ti-location-pin text-white"></i> Address</h5>
+                      <p>Pragathi Nagar, <br>Hyderabad, <br>India</p> -->
+                      <i class="ti ti-email text-white fs-2"></i>
+                        <h5 class="mt-3"> Email</h5>
+                        <p ><a href="mailto:neodesyn@gmail.com" class="text-yellow">neodesyn@gmail.com</a></p></div>
+                       
+                
+                </div>
+                <div class="col-md-3 col-sm-12 d-flex align-items-center justify-content-center text-center">
+                    <div><i class="ti ti-mobile text-white fs-2"></i>
+                        <h5 class=" mt-3"> Phone</h5>
+                         <p><a href="tel:+1234567890" class="text-yellow">+91 8500216329</a></p></div>
+                    
+                </div>
+            </div>
+                   
+            <script>
+                // Form validation script
+                (function () {
+                    'use strict'
+                    var forms = document.querySelectorAll('.needs-validation')
+                    Array.prototype.slice.call(forms).forEach(function (form) {
+                        form.addEventListener('submit', function (event) {
+                            if (!form.checkValidity()) {
+                                event.preventDefault()
+                                event.stopPropagation()
+                            }
+                            form.classList.add('was-validated')
+                        }, false)
+                    })
+                })();
+            </script>
+           
+           
+        
+        </div>
+      </section>
+ <footer>
+    <div class="container text-white text-center py-3">
+        <p class="text-white">© 2024 NeoDesyn</p>
+    </div>
+ </footer>
+
+<script src="js/bootstrap.bundle.min.js" ></script>  
+
+<!-- Scripts -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Smooth scroll on menu click
+    const menuItems = document.querySelectorAll('.offcanvas .nav-link');
+    const offcanvasElement = document.getElementById('offcanvasRight');
+    const offcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasElement);
+
+    menuItems.forEach(item => {
+        item.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            offcanvas.hide(); // Close the offcanvas menu
+
+            // Scroll to the section
+            const targetId = this.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Function to update active class based on scroll position
+    const sections = document.querySelectorAll('section');
+    const menuLinks = document.querySelectorAll('.offcanvas .nav-link, .right-nav .nav-link');
+
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.6 // 60% of the section should be visible
+    };
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const menuLink = document.querySelector(`a[href="#${entry.target.id}"]`);
+            if (entry.isIntersecting) {
+                // Adding active class to menu item
+                console.log(`Section ${entry.target.id} is in view`); // Debugging output
+                menuLink.classList.add('active'); // Add active class when section is in view
+            } else {
+                menuLink.classList.remove('active'); // Remove active class when section is out of view
+            }
+        });
+    }, observerOptions);
+
+    // Observe each section for scroll events
+    sections.forEach(section => {
+        sectionObserver.observe(section);
+    });
+  });
+</script>
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Select all menu items in the offcanvas
+        const menuItems = document.querySelectorAll('.offcanvas .nav-link');
+        const offcanvasElement = document.getElementById('offcanvasRight');
+        const offcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasElement);
+  
+        // Add click event to each menu item
+        menuItems.forEach(item => {
+            item.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent default anchor behavior
+                offcanvas.hide(); // Close the offcanvas menu
+                
+                // Scroll to the section
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                if (targetSection) {
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    });
+  </script> -->
+<!--   
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Smooth scroll on menu click
+      const menuItems = document.querySelectorAll('.offcanvas .nav-link');
+      const offcanvasElement = document.getElementById('offcanvasRight');
+      const offcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasElement);
+  
+      menuItems.forEach(item => {
+          item.addEventListener('click', function (event) {
+              event.preventDefault(); // Prevent default anchor behavior
+              offcanvas.hide(); // Close the offcanvas menu
+  
+              // Scroll to the section
+              const targetId = this.getAttribute('href');
+              const targetSection = document.querySelector(targetId);
+              if (targetSection) {
+                  targetSection.scrollIntoView({
+                      behavior: 'smooth',
+                      block: 'start'
+                  });
+              }
+          });
+      });
+  
+      // Function to update active class based on scroll position
+      const sections = document.querySelectorAll('section');
+      const menuLinks = document.querySelectorAll('.offcanvas .nav-link, .right-nav .nav-link');
+  
+      const observerOptions = {
+          root: null,
+          rootMargin: '0px',
+          threshold: 0.6 // 60% of the section should be visible
+      };
+  
+      const sectionObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+              const menuLink = document.querySelector(`a[href="#${entry.target.id}"]`);
+              if (entry.isIntersecting) {
+                  menuLink.classList.add('active'); // Add active class when section is in view
+              } else {
+                  menuLink.classList.remove('active'); // Remove active class when section is out of view
+              }
+          });
+      }, observerOptions);
+  
+      // Observe each section for scroll events
+      sections.forEach(section => {
+          sectionObserver.observe(section);
+      });
+    });
+  </script> -->
+
+  <!-- Bootstrap CSS
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+<!-- Bootstrap Bundle with Popper.js 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>-->
+
+<!-- 
+
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> 
+
+<script src="js/bootstrap.min.js"></script> -->
+    <!------Animations------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+   <script src="js/site-animations.js"></script>
+ 
+</body>
+</html>

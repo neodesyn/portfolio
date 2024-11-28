@@ -1,0 +1,63 @@
+/**************************************Styles for Animations***************************************/
+/**************************************
+Navigation Menu
+***************************************/
+
+.navbar-brand {
+  opacity: 1;          /* Make elements invisible initially */
+  transform: scale(0.8); /* Make elements smaller initially */
+}
+.nav .nav-item {
+    opacity: 1;           /* Initially hidden */
+    transform: translateX(-400px); /* Logo and Toggler start from the left */
+  }
+  
+  .nav .nav-item {
+    opacity:1;            /* Initially hidden */
+    transform: translateY(-30px); /* Menu items start from the top */
+  
+  }
+/**************************************
+Blue Banner Content, image
+***************************************/
+.banner-title-small,
+.banner-title,
+.banner-paragraph,
+.banner-btn {
+  transform: translateX(-200px); /* Start slightly off-screen to the left */
+  opacity: 0; /* Hidden initially */
+  visibility: hidden; /* Prevent flickering */
+}
+.right-nav {
+ /* transform: translateX(120px);  Start off-screen to the right *
+  opacity: 0; /* Hidden initially *
+  visibility: hidden; /* Prevent flickering */
+
+  /* rotate: 20deg; 
+  scale: 20deg;*/
+
+}
+/**************************************
+Headings
+***************************************/
+h3 {
+    transform: translateX(-100px); /* Start slightly off-screen to the left */
+    opacity: 0; /* Hidden initially */
+  }
+  h2 {
+    transform: scale(1);
+    opacity:1;
+  }
+
+/**************************************
+Projects
+***************************************/
+  .portfolio-item img{
+    opacity: 0; /* Hidden initially */
+    transform: translateY(50px); /* Positioned slightly below */
+  }
+/**************************************
+End
+***************************************/  
+
+  
